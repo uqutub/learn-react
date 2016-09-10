@@ -1,0 +1,17 @@
+{
+  "name": "react-helloworld",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp"
+  },
+  "description": "Hello World with React",
+  "author": "Yousuf Qutubuddin",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-webserver": "^0.9.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "reactify": "^1.1.1"
+  }
+}
