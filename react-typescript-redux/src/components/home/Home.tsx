@@ -1,7 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 
-interface ABC extends React.Props<any> {
+interface IHomeProps extends React.Props<any> {
     counter: number;
 };
 
@@ -13,7 +13,7 @@ function mapStateToProps(state: any) {
 }
 
 
-export class Home extends React.Component<ABC, {}> {
+export class Home extends React.Component<IHomeProps, {}> {
     render() {
         return (<h1>Home Page! {this.props.counter} </h1>);
     }
